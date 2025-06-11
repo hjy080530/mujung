@@ -1,0 +1,25 @@
+{
+  "name": "mujung",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "bun --watch apps/web/index.html"
+  },
+  "dependencies": {
+    "@my/ui": "workspace:*",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "tree": "^0.1.3"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.7",
+    "@types/react-dom": "^19.1.6",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.4",
+    "tailwindcss": "3.4.1",
+    "typescript": "^5.8.3"
+  }
+}

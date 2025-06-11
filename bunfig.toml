@@ -1,0 +1,3 @@
+entrypoints = ["apps/web/index.html"]
+outdir = "dist"
+port = 3000
