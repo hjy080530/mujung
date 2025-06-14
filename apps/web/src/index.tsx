@@ -1,9 +1,15 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
+import './styles/tailwind.css'
+import LinkButton from "./components/LinkButton.tsx";
 
 function App() {
-    return <h1 className="text-3xl font-bold ">안녕</h1>;
+    return(
+        <>
+            <LinkButton />
+        </>
+    );
 }
 
 const root = createRoot(document.getElementById("root")!);
