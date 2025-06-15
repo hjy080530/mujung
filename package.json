@@ -6,7 +6,7 @@
     "packages/*"
   ],
   "scripts": {
-    "dev": "bun --watch apps/web/index.html"
+    "dev": "bun --watch src/app/web/index.html"
   },
   "dependencies": {
     "@my/ui": "workspace:*",
