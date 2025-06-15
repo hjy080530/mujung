@@ -12,7 +12,7 @@ const LinkButton = ()=> {
                 type="button"
                 aria-label="Open Modal"
             >
-                <LinkIcon className="w-16 h-16" />
+                <LinkIcon/>
             </StyledLinkButton>
 
         </div>
