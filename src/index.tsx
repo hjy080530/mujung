@@ -1,9 +1,11 @@
+/** @jsxImportSource @emotion/react */
+import { css } from '@emotion/react';
 import React from "react";
 import { createRoot } from "react-dom/client";
-import "./index.css";
-
+import font from "./styles/fonts";
+import './index.css';
 function App() {
-    return <h1 className="text-3xl font-bold ">안녕</h1>;
+    return <h1 css={font.H1}>안녕</h1>;
 }
 
 const root = createRoot(document.getElementById("root")!);
