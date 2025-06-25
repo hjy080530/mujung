@@ -1,5 +1,7 @@
 # mujung
 
+# 비상:: 이제 이거 안 씀ㅅㄱ
+
 To install dependencies:
 
 ```bash
