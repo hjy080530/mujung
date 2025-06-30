@@ -7,4 +7,4 @@ const supabase = createClient(supabaseUrl, supabaseKey);
 export default supabase;
 
 
-## 테스트
+## 테스트scd
